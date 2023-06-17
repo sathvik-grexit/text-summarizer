@@ -2,7 +2,7 @@ import requests
 
 class ClickUp:
     def __init__(self) -> None:
-        CLICKUP_TOKEN = "pk_48143361_JBL0BFVUO79FME5LDTD11K8HFQA02NZG"
+        CLICKUP_TOKEN = "YOUR_API_TOKEN"
         self.base_url = "https://api.clickup.com/api/v2"
         self.headers = {
             "Content-Type": "application/json",
